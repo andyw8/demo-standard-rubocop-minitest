@@ -1,5 +1,5 @@
 plugins:
   - rubocop-minitest
 
-Minitest/LiteralAsActualArgument:
-  Enabled: true
+extend_config:
+  - .standard_ext.yml
